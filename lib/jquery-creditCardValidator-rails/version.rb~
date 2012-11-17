@@ -1,5 +1,0 @@
-module Jquery
-  module CreditCardValidator
-    VERSION = "0.1"
-  end
-end
