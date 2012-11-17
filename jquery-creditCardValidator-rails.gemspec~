@@ -2,10 +2,10 @@
 require File.expand_path('../lib/jquery-creditCardValidator-rails/version', __FILE__)
 
 Gem::Specification.new do |gem|
-  gem.authors       = ["Pawel Decowski", "Zied Nouira"]
-  gem.description   = %q{The CreditCardValidator Plugin allows you validate the numberof credit card in Javascript.}
-  gem.summary       = %q{CreditCardValidator Plugin}
-  gem.homepage      = "http://paweldecowski.github.com/jQuery-CreditCardValidator"
+  gem.authors       = ["Mike Alsup"]
+  gem.description   = %q{The jQuery Form Plugin allows you to easily and unobtrusively upgrade HTML forms to use AJAX.}
+  gem.summary       = %q{jQuery Form Plugin}
+  gem.homepage      = "https://github.com/malsup/form"
 
   gem.files         = `git ls-files`.split($\)
   gem.executables   = gem.files.grep(%r{^bin/}).map{ |f| File.basename(f) }
